@@ -15,7 +15,7 @@ function logWhisper(string) {
 }
 
 function sayHiToGrandma(string) {
-  if (string.toUpperCase()) {
+  if (string === string.toUpperCase()) {
     return 'YES INDEED!' {
       expect('I can\'t hear you!'(.toEqual 'YES INDEED!'))
     } else if (string === 'I love you, Grandma.') {
