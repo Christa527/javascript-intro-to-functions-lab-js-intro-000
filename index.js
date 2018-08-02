@@ -18,6 +18,7 @@ function sayHiToGrandma(string) {
   if (string.toUpperCase()) {
     return 'YES INDEED!' {
       expect('I can\'t hear you!'(.toEqual 'YES INDEED!'))
+    } else if (string === 'I love you, Grandma.') {
+      return 'I love you, too.'
     }
   }
-}
